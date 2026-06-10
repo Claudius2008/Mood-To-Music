@@ -1,0 +1,87 @@
+PROJECT TITLE
+Mood to Music
+
+---
+
+PROBLEM STATEMENT
+In today’s digital world, users often spend a lot of time searching for songs that match their mood. There is no simple and direct system that automatically provides music based on emotions. This project aims to develop a system that suggests songs according to the user's mood, making music selection faster and easier.
+
+---
+
+PROJECT OBJECTIVES
+
+- Develop a mood-based music recommendation system
+- Reduce time taken to search songs
+- Provide simple and user-friendly interface
+- Enable instant music playback
+- Manage user data and preferences
+
+---
+
+MODULE LIST
+
+- User Registration Module
+- User Login Module
+- Mood Selection Module
+- Song Viewing Module
+- Music Playback Module
+- Search Module
+- Favorites Module
+
+---
+
+TABLE LIST
+
+Table Name| Field Name| Description
+User| user_id| Unique ID for each user
+| name| Name of the user
+| email| User email
+| password| User password
+Song| song_id| Unique ID for each song
+| title| Song title
+| artist| Artist name
+| mood| Mood category
+| file_url| Song file location
+Favorites| fav_id| Unique ID for favorite record
+| user_id| Reference to user
+| song_id| Reference to song
+
+---
+
+SYSTEM OVERVIEW
+The system allows users to register and log in to the application. After logging in, users can select their current mood and view songs related to that mood. Users can play songs directly and add songs to their favorites list. The system is designed to be simple, efficient, and easy to use.
+
+---
+
+TECHNOLOGIES USED
+
+Category| Technology Used
+Frontend| HTML, CSS, JavaScript
+Backend| Python (Flask)
+Database| SQLite
+
+---
+
+EXPECTED OUTPUT
+
+- Users can successfully register and log in
+- Users can select their mood easily
+- System displays songs based on selected mood
+- Users can play songs without delay
+- Users can add songs to favorites
+- Smooth and user-friendly interface
+
+---
+
+FUTURE SCOPE
+
+- Integration with AI for automatic mood detection
+- Adding more song categories and languages
+- Mobile application development
+- Personalized playlist generation
+- Integration with online music streaming platforms
+
+---
+
+CONCLUSION
+The Mood to Music system provides an efficient way to connect user emotions with music. It improves user experience by reducing search time and providing instant access to songs based on mood.
